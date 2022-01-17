@@ -12,7 +12,7 @@
 - find: Prints out the ids of all commits that have the given commit message, one per line. 
 - status: Displays what branches currently exist, and marks the current branch with a *. 
 - checkout: Checkout is a kind of general command that can do a few different things depending on what its arguments are. 
-          - java gitlet.Main checkout -- [file name]
+          ## java gitlet.Main checkout -- [file name]
           - java gitlet.Main checkout [commit id] -- [file name]
           - java gitlet.Main checkout [branch name]
 - branch: Creates a new branch with the given name, and points it at the current head node.
