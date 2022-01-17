@@ -12,9 +12,9 @@
 - find: Prints out the ids of all commits that have the given commit message, one per line. 
 - status: Displays what branches currently exist, and marks the current branch with a *. 
 - checkout: Checkout is a kind of general command that can do a few different things depending on what its arguments are. 
-1. java gitlet.Main checkout -- [file name]
-2. java gitlet.Main checkout [commit id] -- [file name]
-3. java gitlet.Main checkout [branch name]
+  - java gitlet.Main checkout -- [file name]
+  - java gitlet.Main checkout [commit id] -- [file name]
+  - java gitlet.Main checkout [branch name]
 - branch: Creates a new branch with the given name, and points it at the current head node.
 - rm-branch: Deletes the branch with the given name. This only means to delete the pointer associated with the branch; it does not mean to delete all commits that were created under the branch, or anything like that.
 - reset: Checks out all the files tracked by the given commit. Removes tracked files that are not present in that commit. Also moves the current branch's head to that commit node.
